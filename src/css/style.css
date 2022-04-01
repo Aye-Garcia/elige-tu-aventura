@@ -1,0 +1,108 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    background-image: url("../img/fire.jpg");
+  }
+
+  .main--title{
+      margin-bottom: 40px;
+      background: transparent;
+  }
+  
+  .main--ui {
+    width: 70%;
+    padding: 3rem;
+    border-radius: 2rem;
+    
+  }
+  
+  .list {
+    margin-top: 1rem;
+  }
+
+  .list h4 {
+    background: transparent;
+  }
+
+  .list ul {
+    font-family: 'Courier New', Courier, monospace;
+    background: transparent;
+  }
+  
+  .list ul li {
+    list-style: none;
+    text-transform: uppercase;
+    display: inline;
+    margin: 5px;    
+  }
+  
+  .previous {
+    font-size: 1.5rem;
+    margin-top: 50px;
+    background: transparent;
+  }
+
+  .previous span{
+      color:#beb3b3;
+      text-transform: uppercase;
+      background: transparent;
+  }
+  
+  .main--container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:30px 0;
+    color:#fff;
+    background: transparent;
+}
+
+  button {
+    color: #383737;
+    padding: 0.3em 1em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+  }
+
+  button:hover {
+    border: 2px solid rgb(182, 179, 179);
+   }
+   
+   button:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+                -4px -4px 12px #ffffff;
+   }
+
+  .button--app{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor:pointer;
+    color: #beb3b3;
+    font-family:'Courier New', Courier, monospace;
+    font-size:15px;
+    text-decoration:none;
+    margin-top: 15px;
+    background: transparent;
+  }
+
+    .button--app h3{
+        margin-left: 15px;
+        background: transparent;
+    }
+
+   .previous h4 {
+        background: transparent;
+      }
+
+.list {
+    background: transparent;
+}
